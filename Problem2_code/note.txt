@@ -1,0 +1,11 @@
+You can write the input in the INP file.
+The format of input is as follows:
+
+The first line is: 50 ( 50 nodes ), and the links are set up like the description in the report
+The second line is: start point _ destination _ maximum time to rescue
+The third line is: the number of people _ the time threshold
+The fourth line is: number of scenarios
+The fifth line is: probability of each scenario
+The last line is: number of iterations for updating Lagrange multiplier
+
+The output will evaluate the value of lower bound and upper bound of the optimization function and their relative gap, as well as produce the prior plan for each link. 
